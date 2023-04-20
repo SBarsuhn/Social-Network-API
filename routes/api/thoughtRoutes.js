@@ -1,3 +1,4 @@
+// These are all of the endpoints for viewing/editing thoughts and reactions. the "/" represents "/thought"
 const router = require("express").Router();
 const {
   getThoughts,

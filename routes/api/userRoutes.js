@@ -1,3 +1,4 @@
+// These are all of the endpoints for viewing/editing users and friends. the "/" represents "/user"
 const router = require("express").Router();
 const {
   getUsers,

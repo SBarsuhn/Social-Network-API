@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose')
-
+// This tells the application what the data will look like for a user and what needs to be entered when creating a new user
 const userSchema = new Schema ({
     username: {
         type: String,

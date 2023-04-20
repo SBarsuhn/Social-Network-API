@@ -1,3 +1,4 @@
+// This is what is used to launch the application. it sets the port and lets the user know the application is running in the terminal
 const express = require('express');
 const db = require('./config/connection');
 const routes = require('./routes');
